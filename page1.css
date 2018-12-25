@@ -1,0 +1,31 @@
+@charset "UTF-8";
+body {
+	font-family: arial;
+}
+
+h1 {
+	font: Arial;
+	text-align: center;
+	font-size: 50px;
+	margin-top: 50px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#navigation {
+	text-align: center;
+	font-weight: bolder;
+	margin-bottom: 100px;
+}
+
+li {
+	display: inline;
+	padding: 20px;
+	text-align: center;
+	font-size: 2vw;
+}
+
+#footer {
+	text-align: center;
+	font-size: 10px;
+}
