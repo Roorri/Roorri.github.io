@@ -29,3 +29,11 @@ li {
 	text-align: center;
 	font-size: 10px;
 }
+
+a:visited {
+color: #585858;
+}
+
+a:link {
+color:#000000;
+}
