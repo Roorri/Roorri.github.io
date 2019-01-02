@@ -22,7 +22,7 @@ body {
 
 li {
 	display: inline;
-	padding: 20px;
+	padding: 25px;
 	text-align: center;
 	font-size: 2vw;
 }
@@ -38,4 +38,18 @@ color: #585858;
 
 a:link {
 color:#000000;
+}
+
+@media screen and (max-width:375px) {
+  /* CSS for screens that are x pixels or less will be put in this section */
+	li {
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width:414px) {
+  /* CSS for screens that are x pixels or less will be put in this section */
+	li {
+		font-size: 17px;
+	}
 }
